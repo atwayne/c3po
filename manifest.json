@@ -1,22 +1,21 @@
 {
-	"manifest_version": 2,
-	
-	"name":"C3PO",
-	"description": "This extension adds an context menu to chrome. Jumps to the pre-defined webpage to translate the selected word",
-  "version": "1.0",
-  
-  "author":"lastr2d2@gmail.com",
-  
-	"permissions": [
-		"contextMenus"
-	],
-	"background": {
-    "persistent": false,
-    "scripts": ["event.js"]
-  },
-	"icons": {
-		"16": "images/icon-bitty.png",
-		"48": "images/icon-small.png",
-		"128": "images/icon-large.png"
-	}
+    "manifest_version": 2,
+    "name": "C3PO",
+    "description": "This extension adds an context menu to chrome. Jumps to the pre-defined webpage to translate the selected word",
+    "version": "1.0",
+    "author": "lastr2d2@gmail.com",
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "event.js"
+        ]
+    },
+    "icons": {
+        "16": "images/icon-bitty.png",
+        "48": "images/icon-small.png",
+        "128": "images/icon-large.png"
+    }
 }
